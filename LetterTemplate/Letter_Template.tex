@@ -1,0 +1,71 @@
+% template for letter
+% working example for DIN style letter
+% created by mrchanceluss based on the KOMA-script documentation
+% by Markus Kohm (link: https://komascript.de)
+
+\documentclass[%
+foldmarks=P,%
+version=last,%
+fromalign=right,%
+%fromrule=below,%
+%absender_marcus,%
+%fusszeile,%
+fromphone,%
+fromemail%
+]{scrlttr2}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{scrpage2}
+\usepackage{graphicx}
+
+\setkomavar{signature}{\includegraphics[scale=.5]{Unterschrift}\\[-0.6cm] Meine Unterschrift}
+\newkomavar*[-- via E-Mail --]{bymail}
+\setkomavar{bymail}{ }
+
+
+\begin{document}
+%%% Betreff
+\setkomavar{subject}{%
+the subject
+}
+
+%%% Anfang des Briefes
+\begin{letter}{%
+Max Mustermann\\
+Mustermannstraße\\
+12345 Musterstadt
+}
+\opening{Hallo Max,}
+
+dies ist mein Brief an dich.
+
+\closing{
+%Liebe Grüße
+Mit freundlichen Grüßen
+}
+%%% post scriptum
+%\ps PS:
+
+%%% Anlagen
+%für mehrere Anlagen:
+\setkomavar*{enclseparator}{Anlagen}
+
+%für einzelne Anlage
+%\setkomavar*{enclseparator}{Anlage}%für einzelne Anlage
+
+%Liste der Anlagen
+%\encl{%Anlage
+%Anlage1\\
+%Anlage2
+%Angaben durch \\ voneinander trennen
+%}
+
+%%% Verteiler
+%\cc{% verteiler
+%Person1\\
+%Person2
+%Angaben durch \\ voneinander trennen
+%}
+\end{letter}
+\end{document}
