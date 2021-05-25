@@ -1,6 +1,7 @@
 # LaTeX - Letter Template
 ## What is this?
-This repository contains templates for the creation of letters with the LaTeX typesetting system.
+This repository contains templates for the creation of letters with the LaTeX typesetting system. You will need a fully working TeX system on your computer to make use of them. TeX Live (http://www.tug.org/texlive/) and MacTeX (http://www.tug.org/mactex/) are widespread, but ot hte only distributions.
+If you have no idea at all what this is about check out the wikipedia (https://en.wikipedia.org/wiki/TeX). If you do, you probably know where to look.
 
 ## Disclaimer
 By no means these letter templates have been invented all by myself. Contrary, it is almost exclusively based on the document classes and examples from the KOMA-Script environment, provided by Markus Kohm on his website (https://komascript.de).
@@ -22,4 +23,4 @@ There are three '''.lco''' files. I use them to setup variables containing infor
 
 ***absender.lco*** defines variables used by scrlttr2 to set adresses, phone numbers etc. for the sender.
 
-***fusszeile.lco*** 
+***fusszeile.lco***
