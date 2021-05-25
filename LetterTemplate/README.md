@@ -25,4 +25,4 @@ There are three .lco files. I use them to setup variables containing information
 
 [***fusszeile.lco***](https://github.com/mrchanceluss/LaTeX/blob/main/LetterTemplate/fusszeile.lco) is used to setup the footer of the Letter.
 
-[***kopfzeile***(https://github.com/mrchanceluss/LaTeX/blob/main/LetterTemplate/kopfzeile.lco)] is used to setup the header of the letter.
+[***kopfzeile***](https://github.com/mrchanceluss/LaTeX/blob/main/LetterTemplate/kopfzeile.lco) is used to setup the header of the letter.
