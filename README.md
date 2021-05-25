@@ -13,7 +13,7 @@ Presently the examples are in German only, English versions will be added later.
 ### Main files
 All templates use the scrlttr2 class from the KOMA-Script.
 
-The ***LetterTemplate_mwe.tex*** is a minimum working example. Try this at first to see if your LaTeX system compiles without errors. This example natively uses English (check the month in the output file). If you would like to use it in a different language, you have to load the respective packages.
+The [***LetterTemplate_mwe.tex***](https://github.com/mrchanceluss/LaTeX/blob/main/LetterTemplate/LetterTemplate_mwe.tex) is a minimum working example. Try this at first to see if your LaTeX system compiles without errors. This example natively uses English (check the month in the output file). If you would like to use it in a different language, you have to load the respective packages.
 
 The [***LetterTemplate.tex***](https://github.com/mrchanceluss/LaTeX/blob/main/LetterTemplate/LetterTemplate.tex) is a full working template (at least on my machine...) containing not only some adjustments but also various extra parameters and external files. Nothing too fancy, though.
 
