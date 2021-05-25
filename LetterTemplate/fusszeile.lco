@@ -1,0 +1,23 @@
+\ProvidesFile{fusszeile.lco}%
+\setkomavar{firstfoot}{
+	\hrule
+	\parbox[t]{\linewidth}{\scriptsize\sffamily%
+		\begin{tabular}[t]{l@{}}
+			\multicolumn{1}{@{}l@{}}{Adresse:}\\
+			\usekomavar{fromname}\\
+			\usekomavar{fromaddress}
+		\end{tabular}
+		\hfill
+		\begin{tabular}[t]{l@{}}
+			\multicolumn{1}{@{}l@{}}{Telefon: }\\
+			\usekomavar{fromphone}\\
+			\usekomavar{fromphone_mobil}
+		\end{tabular}
+		\hfill
+		\begin{tabular}[t]{l@{}}
+			\multicolumn{1}{@{}l@{}}{Mail: }\\
+			\usekomavar{fromemail}
+		\end{tabular}
+	}
+}
+\endinput

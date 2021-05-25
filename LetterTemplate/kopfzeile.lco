@@ -1,0 +1,34 @@
+\ProvidesFile{kopfzeile.lco}%
+\firsthead{
+	\parbox[t]{\linewidth}{\scriptsize\sffamily%
+		\begin{tabular}[t]{l@{}}
+			\multicolumn{1}{@{}l@{}}{Anschrift:}\\
+			\usekomavar{fromname}\\
+			\usekomavar{fromaddress}
+		\end{tabular}
+		\hfill
+		\begin{tabular}[t]{l@{}}
+			\multicolumn{1}{@{}l@{}}{Telefon:}\\
+			\usekomavar{fromphone}
+		\end{tabular}
+		\hfill
+		\begin{tabular}[t]{l@{}}
+			\multicolumn{1}{@{}l@{}}{E-Mail:}\\
+			\usekomavar{fromemail}
+		\end{tabular}
+		%\hfill
+		%\begin{tabular}[t]{l@{}}
+		%	\multicolumn{1}{@{}l@{}}{URL:}\\
+		%	\usekomavar{fromurl}
+		%\end{tabular}
+		\ifkomavarempty{frombank}{}{
+				\hfill
+		\begin{tabular}[t]{l@{}}
+			\multicolumn{1}{@{}l@{}}{\usekomavar*{frombank}}\\
+			\usekomavar{frombank}
+		\end{tabular}
+		}
+	}
+	\hrule
+}
+\endinput

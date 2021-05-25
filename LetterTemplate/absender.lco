@@ -1,0 +1,23 @@
+\ProvidesFile{absender}%
+%
+\setkomavar{fromname}{Vorname Name}%
+%
+\setkomavar{fromaddress}{%
+	Straße 123\\%
+	12345 Stadt
+}%
+\setkomavar{backaddress}{%
+	\usekomavar{fromname}\\
+	\usekomavar{fromaddress}
+}%
+%
+\setkomavar{fromphone}{+49\,(0)\,12\,34\,56\,78}%
+%
+\setkomavar{place}{Stadt}%
+%
+\setkomavar{fromemail}{name@provider.com}%
+%
+\newkomavar[Mobil: ]{fromphone_mobil}
+\setkomavar{fromphone_mobil}{+49\,(0)\,11\,22\,33\,44\,55}
+%
+\endinput
