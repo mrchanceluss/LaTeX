@@ -1,2 +1,0 @@
-# HAAAALLO!
-***the letter readme***
