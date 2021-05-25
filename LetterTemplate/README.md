@@ -21,7 +21,7 @@ The [***LetterTemplate.tex***](https://github.com/mrchanceluss/LaTeX/blob/main/L
 #### What files are there?
 There are three .lco files. I use them to setup variables containing information like phone numbers and addresses.
 
-***absender.lco*** defines variables used by scrlttr2 to set adresses, phone numbers etc. for the sender.
+[***absender.lco***](https://github.com/mrchanceluss/LaTeX/blob/main/LetterTemplate/absender.lco) defines variables used by scrlttr2 to set adresses, phone numbers etc. for the sender.
 
 [***fusszeile.lco***](https://github.com/mrchanceluss/LaTeX/blob/main/LetterTemplate/fusszeile.lco) is used to setup the footer of the Letter.
 
