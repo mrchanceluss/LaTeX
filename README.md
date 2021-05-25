@@ -1,4 +1,6 @@
-# LaTeX - Letter Template
+# My LaTeX files
 ## What is this?
-This repository contains templates for the creation of files and documents with the LaTeX typesetting system. You will need a fully working TeX system on your computer to make use of them. TeX Live (http://www.tug.org/texlive/) and MacTeX (http://www.tug.org/mactex/) are widespread, but ot hte only distributions.
+This repository contains contains a collection of files and documents to use with the LaTeX typesetting system. To me it is an aid to memory. If they are of any use to you feel free to use them to your liking.
+
+You will need a fully working TeX system on your computer to make use of them. TeX Live (http://www.tug.org/texlive/) and MacTeX (http://www.tug.org/mactex/) are widespread, but ot hte only distributions.
 If you have no idea at all what this is about check out the wikipedia (https://en.wikipedia.org/wiki/TeX). If you do, you probably know where to look.
