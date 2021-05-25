@@ -8,10 +8,10 @@ foldmarks=P,%
 version=last,%
 fromalign=right,%
 %fromrule=below,%
-%absender_marcus,%
+absender%
 %fusszeile,%
-fromphone,%
-fromemail%
+%fromphone,%
+%fromemail%
 ]{scrlttr2}
 
 \usepackage[ngerman]{babel}
