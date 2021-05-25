@@ -12,6 +12,8 @@ The ***LetterTemplate_mwe.tex*** is a minimum working example. Try this at first
 
 The ***LetterTemplate.tex*** is a full working template (at least on my machine...) containing not only some adjustments but also various extra parameters and external files. Nothing too fancy, though.
 
-
+### Auxiliary files
+There are three '''.lco''' files. In my case is use them to setup mainly variables.
+***absender.lco*** defines variables used by scrlttr2 to set adresses, phone numbers etc.
 
 To use these templates check for the relevant parts in the tex-files and replace the examples with your information.
